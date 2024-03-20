@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Password Genetor</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2>Password Genetor</h2>
+        </header>
+        <div class="copy_text">
+            <input class="genaret" id="show" type="text" placeholder="Password">
+            <button id="genaret">Copy</button>
+        </div>
+        <div class="options">
+         <label>Length</label>
+         <input id="inp" type="number" value="10" min="10" max="20">
+        </div>
+        <div class="options">
+            <label class="uppercase_label">UpperCase</label>
+            <input id="uppercase" type="checkbox" checked>
+           </div>
+           <div class="options">
+            <label class="lowercase_label">LowerCase</label>
+            <input id="lowercase" type="checkbox" checked>
+           </div>
+           <div class="options">
+            <label class="number_label">Numbers</label>
+            <input id="number" type="checkbox" checked>
+           </div>
+           <div class="options">
+            <label id="symbol_label">Symbols</label>
+            <input id="symbol" type="checkbox" checked>
+           </div>
+           <button id="submit">genaret</button>
+    </div>
+</body>
+</html>
+<script src="java.js"></script>

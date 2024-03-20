@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+    background-color: white;
+    width: 300px;
+    height: 289px;
+}
+header{
+    text-align: center;
+    padding: 20px;
+    background-color: cadetblue;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.copy_text{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#inp{
+    text-align: center;
+   
+}
+.genaret{
+    padding: 5px;
+    width: 75%;
+    margin-bottom: 20px;
+    border: none;
+    font-size: 17px;
+}
+#genaret{
+    padding: 5px;
+    border:none;
+    cursor: pointer;
+    color: white;
+    background-color: gold;
+    border-radius: 10px;
+    font-size: 17px;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    
+}
+#submit{
+    width: 100%;
+    font-size: 1rem;
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    padding: 6px;
+    cursor: pointer;
+    bottom: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>To Do-list</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+        background-color:blanchedalmond
+    }
+    h1{
+        font-size: 70px;
+    }
+    #inp{
+        padding: 15px 80px;
+        border: 1px solid black;
+        border-radius: 20px;
+        box-shadow: black;
+    }
+    .btn{
+        padding: 15px 40px;
+        border-radius: 20px;
+        cursor: pointer;
+        background-color: orange;
+        /* border: none; */
+    }
+    .container{
+        position: relative;
+    top: 30px;
+        margin: 30px;
+        border-radius: 20px;
+        padding: 20px;
+        cursor: pointer;
+        text-align: center;
+        background-color: white;
+        margin: 0 auto;
+        width: 575px;
+        height: 300px
+    }
+    span{
+
+       
+    }
+    li{
+    background-color: aquamarine;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 20px;
+    width: 363px;
+    height: 32px;
+    margin: 2px 58px;
+    margin-top: 18px;
+    }
+</style>
+<body>
+    <div class="container">
+        <h1>To Do-List</h1>
+        <input type="text" id="inp" placeholder="Enter task">
+        <button onclick="add()" class="btn">Add</button>
+       <ul class="display">
+       </ul>
+    </div>
+</body>
+</html>
+
+<script src="java.js"></script>
